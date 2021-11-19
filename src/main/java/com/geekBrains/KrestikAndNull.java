@@ -163,7 +163,7 @@ public class KrestikAndNull {
 
         return MAP[y][x] != DOT_EMPTY;
     }
-    
+
     private static void initMap() {
         MAP = new char[SIZE][SIZE];
         for (int i = 0; i < SIZE; i++) {
@@ -186,5 +186,4 @@ public class KrestikAndNull {
             System.out.println();
         }
     }
-
 }
